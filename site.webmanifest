@@ -1,0 +1,7 @@
+{
+    "name": "KWMJS 1.0.0",
+    "short_name": "KWMJS",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
