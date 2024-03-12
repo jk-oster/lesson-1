@@ -4,6 +4,8 @@ import KWM_Component from '../core/kwm-component.js';
 
 /**
  * This is the page home component and will be rendered when the user navigates to the '/' home route.
+ *
+ * You need to create the base class 'KWM_Component' first before using me!
  **/
 export default class HomeComponent extends KWM_Component {
     constructor() {
