@@ -22,6 +22,11 @@ export default class HomeComponent extends KWM_Component {
         return /*html*/`
         <section id="main_content">
             <h1>🏠 ${this.text}</h1>
+            <p>
+                I will write some great placeholder text – and nobody writes better placeholder text than me, believe me 
+                – and I’ll write it very inexpensively. I will write some great, great text on your website’s Southern 
+                border, and I will make Google pay for that text. Mark my words. This placeholder text is gonna be HUGE.
+            </p>
             <p><a href="#/contact">Contact us!</a></p>
         </section>
         `;
