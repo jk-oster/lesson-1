@@ -8,6 +8,6 @@
  *  - User device information
  *  - ...
  *
- *  @author Jakob Osterberger - 2024
+ *  @author You - 2024
  */
 // your code goes here

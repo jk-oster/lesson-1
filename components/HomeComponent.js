@@ -11,15 +11,11 @@ export default class HomeComponent extends KWM_Component {
     constructor() {
         super();
 
-        /**
-         * Component data
-         */
+        // Any component data goes here in the constructor
         this.text = 'Welcome Welcome HOME my friend 🥳';
     }
 
-    /**
-     * Template function = shape of the component
-     */
+    // Template function = shape of the component
     template() {
         return /*html*/`
         <section id="main_content">
