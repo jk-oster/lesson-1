@@ -26,6 +26,7 @@ export default class HomeComponent extends KWM_Component {
                 border, and I will make Google pay for that text. Mark my words. This placeholder text is gonna be HUGE.
             </p>
             <p><a href="#/contact">Contact us!</a></p>
+            <p><a href="#/i-dont-exist">I lead to a non existent page</a></p>
         </section>
         `;
     }
