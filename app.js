@@ -1,4 +1,11 @@
 'use strict';
+
+/**
+ * I am the main entry point  to our application - test everything here!
+ *
+ * You can already find the test code for your first task below.
+ */
+
 import KWM_Component from './core/kwm-component.js';
 
 class MyCustomComponent extends KWM_Component {
