@@ -13,6 +13,6 @@
  * @param {string} options.slugHome - Default slug for first page load
  * @param {string} options.slugNotFound - Default slug when unknown slug is put into URL
  *
- * @author You - 2024
+ * @author You - 2025
  */
 // your code goes here
