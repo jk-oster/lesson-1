@@ -16,6 +16,7 @@ export class HomeComponent extends Component {
         return html`
         <section id="main_content">
             <h1>🏠 ${this.text}</h1>
+            <p>Congratulations! You have successfully created your first component and rendered it.</p>
             <p><a href="#/contact">Contact us!</a></p>
             <p><a href="#/i-dont-exist">I lead to a non existent page</a></p>
         </section>
