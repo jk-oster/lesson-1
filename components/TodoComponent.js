@@ -34,3 +34,5 @@ class TodoComponent extends Component {
         </section>`;
     }
 }
+
+customElements.define('todo-component', TodoComponent);
