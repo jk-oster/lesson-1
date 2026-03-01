@@ -6,31 +6,23 @@
  * You can already find the test code for your first task below.
  */
 
-import KWM_Component from './core/kwm-component.js';
+import {Component} from './kwm-js';
 
-class MyCustomComponent extends KWM_Component {
-    constructor() {
-        super();
-        this.heading = 'My first custom component 🥳';
-        this.list = [
-            "Banana",
-            "Apple",
-            "Toast",
-            "Cherry",
-            "Pineapple",
-        ]
+class TestComponent extends Component {
+    heading = 'My first custom component 🥳';
+    list = [
+        "Banana",
+        "Apple",
+        "Toast",
+        "Cherry",
+        "Pineapple",
+    ];
 
-    }
-
-    onRender() {
-        console.log('onRender life-cycle method is working 🥳!');
-    }
-
-    onFirstRender() {
+    onMounted() {
         console.log('Wow - I even managed to code the Bonus 🧠!');
     }
 
-    template() {
+    render() {
         return /*html*/`
             <div>
                 <h2>${this.heading}</h2>
@@ -43,7 +35,7 @@ class MyCustomComponent extends KWM_Component {
     }
 }
 
-customElements.define('custom-component', MyCustomComponent);
+customElements.define('test-component', TestComponent);
 
-const myComponent = new MyCustomComponent();
+const myComponent = new TestComponent();
 myComponent.render(document.getElementById("kwmJS"));
